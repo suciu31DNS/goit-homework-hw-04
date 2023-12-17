@@ -404,6 +404,8 @@ img {
   padding-left: 156px;
   padding-right: 156px;
   gap: 24px;
+  margin: 0;
+  padding-top: 0;
 
 }
 
@@ -417,7 +419,7 @@ img {
 }
 
 .customers-element {
-  width: calc((100% - 120) / 6);
+  width: calc((100%-120px)/6);
   width: 168px;
   height: 88px;
   gap: 24px;
@@ -445,9 +447,9 @@ img {
 }
 
 .customers-icon {
-  fill: var(--logo-button-blue-color);
-  width: 104px;
-  height: 56px;
+  fill: currentColor;
+  /* width: 104px;
+  height: 56px; */
 }
 
 
@@ -489,7 +491,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 16px;
 }
 
 /* Social Media Footer */
@@ -513,6 +514,7 @@ img {
   gap: 16px;
   justify-content: center;
   padding: 0;
+  margin: 0;
 }
 
 .social-media-element {
