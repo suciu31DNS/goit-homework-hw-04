@@ -190,7 +190,7 @@ img {
   font-family: var(--hero-font);
   font-weight: 500;
   font-size: 16px;
-  section line-height: 1.5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--light-color);
   cursor: pointer;
@@ -251,7 +251,6 @@ img {
   padding: 120px 0;
 }
 
-.section-description-content {}
 
 .description-list {
   display: flex;
@@ -390,16 +389,15 @@ img {
 /* Contacts Section */
 .customers-section {
   display: flex;
-  flex-direction: column;
-  padding: 120px 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
 }
 
 .customers-list {
   display: flex;
-  list-style: none;
-  padding: 0;
-  justify-content: space-between;
-  height: 88px;
+  padding-left: 156px;
+  padding-right: 156px;
   gap: 24px;
 
 }
@@ -414,7 +412,7 @@ img {
 }
 
 .customers-element {
-  width: calc((100%-120px)/6);
+  width: calc((100% - 120) / 6);
   width: 168px;
   height: 88px;
   gap: 24px;
