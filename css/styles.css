@@ -396,19 +396,20 @@ img {
   padding: 0;
   justify-content: center;
   height: 88px;
+  gap: 24px;
 }
 
 .customers-title {
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--hero-color-navy);
   text-align: center;
-  letter-spacing: 0.02em;
   margin-bottom: 72px;
 }
 
 .customers-element {
-  width: calc((100%-120px)/6) width: 188px;
-
+  width: calc((100%-120px)/6);
+  width: 88px;
 
 }
 
@@ -435,6 +436,8 @@ img {
 
 .customers-icon {
   fill: var(--logo-button-blue-color);
+  width: 104px;
+  height: 56px;
 }
 
 
@@ -449,6 +452,7 @@ img {
   line-height: 1.17px;
   display: flex;
   padding: 101px 692px 100px 156px;
+  align-items: baseline;
 }
 
 .footer-content {
@@ -475,11 +479,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-bottom: 16px;
 }
 
 /* Social Media Footer */
 .social-media {
   padding-bottom: 32px;
+
 }
 
 .social-media-pharagraph {
@@ -495,6 +501,9 @@ img {
   list-style: none;
   display: flex;
   gap: 16px;
+  justify-content: center;
+  gap: 24px;
+  padding: 0;
 }
 
 .social-media-element {
@@ -519,7 +528,10 @@ img {
   justify-content: center;
 }
 
-.social-media-link:hover,
+.social-media-link:hover {
+  background-color: var(--focus-hover-color);
+}
+
 .social-media-link:focus {
   background-color: var(--focus-hover-color);
 }
