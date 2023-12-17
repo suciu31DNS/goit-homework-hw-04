@@ -396,6 +396,7 @@ img {
   display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 0 50px;
 
 }
 
@@ -413,13 +414,14 @@ img {
   font-size: 36px;
   line-height: 1.11;
   color: var(--hero-color-navy);
-  text-align: center;
   margin-bottom: 72px;
+  text-align: center;
+
 
 }
 
 .customers-element {
-  width: calc((100%-120px)/6);
+  width: 220px;
   width: 168px;
   height: 88px;
   gap: 24px;
