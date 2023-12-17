@@ -165,7 +165,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -218,6 +218,7 @@ img {
   justify-content: center;
   justify-content: space-between;
 
+
 }
 
 .icon-element {
@@ -247,7 +248,7 @@ img {
 
 
 .section-description {
-  padding: 0 0 120px 0;
+  padding: 120px 0;
 }
 
 .section-description-content {}
@@ -299,7 +300,8 @@ img {
 /*What we do section*/
 
 .what-we-do-section {
-  padding-bottom: 120px;
+  padding: 120px 156px;
+  margin: 0 50px;
 }
 
 
@@ -316,10 +318,12 @@ img {
 .section-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .list-element {
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
+
 }
 
 /*Our Team section*/
@@ -335,13 +339,13 @@ img {
 
 .our-team-section {
   background-color: var(--nu-color);
-  padding: 120px 0;
+  padding: 120px 156px;
 }
 
 .our-team-list {
   display: flex;
   gap: 24px;
-
+  align-items: center;
 }
 
 .out-team-subtitle {
@@ -368,7 +372,7 @@ img {
 
 .list-content {
   background-color: var(--light-color);
-  width: calc((100%-72px)/4);
+  /* width: calc((100%-72px)/4); */
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 4px;
@@ -376,7 +380,7 @@ img {
 }
 
 .out-team-member {
-  padding: 32px 0 0 0;
+  /* padding: 32px 0 0 0; */
 }
 
 .list-title {
@@ -387,16 +391,17 @@ img {
 .customers-section {
   display: flex;
   flex-direction: column;
-  margin: 120px 156px;
+  padding: 120px 156px;
 }
 
 .customers-list {
   display: flex;
   list-style: none;
   padding: 0;
-  justify-content: center;
+  justify-content: space-between;
   height: 88px;
   gap: 24px;
+
 }
 
 .customers-title {
@@ -405,12 +410,14 @@ img {
   color: var(--hero-color-navy);
   text-align: center;
   margin-bottom: 72px;
+
 }
 
 .customers-element {
   width: calc((100%-120px)/6);
-  width: 88px;
-
+  width: 168px;
+  height: 88px;
+  gap: 24px;
 }
 
 .customers-link {
@@ -509,8 +516,6 @@ img {
 .social-media-element {
   width: 40px;
   height: 40px;
-  /* width: 100%;
-  height: 100%; */
   background-color: var(--logo-button-blue-color);
   border-radius: 50%;
   display: flex;
