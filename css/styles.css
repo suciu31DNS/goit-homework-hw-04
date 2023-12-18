@@ -529,6 +529,7 @@ h2 {
 }
 
 /* Social Media Footer */
+
 .social-media-footer {
   display: flex;
   flex-direction: column;
@@ -561,6 +562,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
 
 }
 
@@ -599,9 +601,7 @@ h2 {
   background-color: #31d0aa;
 }
 
-.social-media-logo {
-  fill: var(--nu-color);
-}
+
 
 .social-media-link:hover,
 .social-media-link:focus {
@@ -620,10 +620,10 @@ h2 {
 
 }
 
-.social-media-link-port:hover,
+/* .social-media-link-port:hover,
 .social-media-link-port:focus {
   background-color: #31d0aa;
-}
+} */
 
 
 .main-section {
