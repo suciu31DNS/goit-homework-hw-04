@@ -68,10 +68,10 @@ h2 {
   display: block;
 }
 
-.link:hover,
+/* .link:hover,
 .link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
 
 
 .buton {
@@ -356,10 +356,14 @@ h2 {
 
 /*Our Team section*/
 
-.our-team-section {
+.our-team {
   background-color: var(--nu-color);
-  align-content: center;
+  width: 1158px;
+  margin: 0 auto;
+}
 
+.our-team-section {
+  align-content: center;
   padding: 120px 0;
 }
 
@@ -488,8 +492,13 @@ h2 {
 
 /* footer section */
 
-.footer-section {
+.footer {
   background-color: var(--hero-color-navy);
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.footer-section {
   width: 0 auto;
   height: 312px;
   display: flex;
@@ -574,7 +583,7 @@ h2 {
 
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .social-media-logo-footer {
