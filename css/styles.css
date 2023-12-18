@@ -356,6 +356,15 @@ h2 {
 }
 
 /*Our Team section*/
+
+.our-team-section {
+  background-color: var(--nu-color);
+  padding: 120px 0;
+  margin: 0 auto;
+  align-content: center;
+  width: 1440px;
+}
+
 .our-team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -364,14 +373,6 @@ h2 {
   text-transform: capitalize;
   color: var(--hero-color-navy);
   margin-bottom: 72px;
-}
-
-.our-team-section {
-  background-color: var(--nu-color);
-  padding: 120px 0;
-  margin: 0 auto;
-  align-content: center;
-  width: 1440px;
 }
 
 .our-team-list {
@@ -506,13 +507,6 @@ h2 {
   margin-bottom: 16px;
 }
 
-.footehiddenr-section {
-  background-color: var(--hero-color-navy);
-  /* font-weight: 800px; */
-  font-size: 18px;
-  line-height: 1.17px;
-  padding: 100px 0;
-}
 
 .footer-paragraf {
   color: var(--nu-color);
@@ -524,7 +518,6 @@ h2 {
 /* Social Media Footer */
 .social-media {
   padding-bottom: 32px;
-
 }
 
 .social-media-pharagraph {
