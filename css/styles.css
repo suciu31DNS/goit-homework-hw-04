@@ -578,13 +578,17 @@ h2 {
 
 .social-media-logo {
   fill: var(--nu-color);
-  /* width: 16px;
-  height: 16px; */
 }
 
 .social-media-link:hover,
 .social-media-link:focus {
+  background-color: #404bbf;
+}
+
+.social-media-element:hover,
+.social-media-element:focus {
   background-color: #31d0aa;
+
 }
 
 .social-media-link:hover,
@@ -594,8 +598,7 @@ h2 {
 
 .social-media-logo-footer {
   fill: var(--nu-color);
-  width: 24px;
-  height: 24px;
+
 }
 
 .social-media-link-port:hover,
