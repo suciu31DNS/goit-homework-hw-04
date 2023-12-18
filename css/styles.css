@@ -68,10 +68,10 @@ h2 {
   display: block;
 }
 
-.link:hover,
+/* .link:hover,
 .link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
 
 
 .buton {
@@ -140,15 +140,11 @@ h2 {
 }
 
 
-.list-links:hover {
-  color: var(--focus-hover-color);
-
-}
-
-
+.list-links:hover,
 .list-links:focus {
   color: var(--focus-hover-color);
 }
+
 
 /* header-section */
 .header {
@@ -548,7 +544,7 @@ h2 {
 .social-media-list {
   list-style: none;
   display: flex;
-  gap: 16px;
+  gap: 24px;
   justify-content: center;
   padding: 0;
   margin: 0;
@@ -562,7 +558,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 
 }
 
