@@ -15,17 +15,17 @@ body {
   background-color: var(--light-color);
 }
 
-img {
-  display: block;
-}
 
 p {
   margin: 0;
+
 }
 
 h2 {
   margin: 0;
+
 }
+
 
 /*LOGO*/
 .logo {
@@ -75,6 +75,7 @@ h2 {
 
 .link-content {
   display: block;
+  text-decoration: none;
 }
 
 .buton {
@@ -140,6 +141,7 @@ h2 {
   letter-spacing: 0.02em;
   color: var(--hero-color-navy);
   margin: 24px 0;
+  text-decoration: none;
 }
 
 
@@ -687,7 +689,7 @@ h2 {
   border: 1px solid #e7e9fc;
   border-top: none;
   width: 360px;
-
+  text-
 }
 
 
