@@ -50,15 +50,11 @@ h2 {
 }
 
 .navigation-list {
-  display: flex;
-  gap: 40px;
   padding: 0;
 }
 
 
 .address-list {
-  display: flex;
-  gap: 40px;
   align-items: center;
 }
 
@@ -133,8 +129,15 @@ h2 {
   color: var(--focus-hover-color);
 }
 
-.list {
+.general-list {
+  display: flex;
+  gap: 24px;
   list-style: none;
+}
+
+
+.list {
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -283,8 +286,6 @@ h2 {
 
 
 .description-list {
-  display: flex;
-  gap: 24px;
   padding: 0;
 }
 
@@ -346,8 +347,6 @@ h2 {
 }
 
 .section-list {
-  display: flex;
-  gap: 24px;
   justify-content: center;
 }
 
@@ -360,8 +359,8 @@ h2 {
 
 .our-team {
   background-color: var(--nu-color);
-  width: 1158px;
-  margin: 0 auto;
+  /* width: 1158px;
+  margin: 0 auto; */
 }
 
 .our-team-section {
@@ -381,11 +380,8 @@ h2 {
 }
 
 .our-team-list {
-  display: flex;
-  gap: 24px;
   align-items: center;
   justify-content: center;
-  list-style: none;
   padding: 0;
 }
 
@@ -438,16 +434,11 @@ h2 {
   padding-bottom: 120px;
 }
 
-.customers-section {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .customers-list {
   display: flex;
   gap: 24px;
-  margin: 0;
-  padding: 0;
   width: calc((100% - 120px) / 6);
 
 }
@@ -553,8 +544,6 @@ h2 {
 }
 
 .social-media-list {
-  list-style: none;
-  display: flex;
   gap: 16px;
   justify-content: center;
   padding: 0;
@@ -562,7 +551,6 @@ h2 {
 }
 
 .social-media-list-footer {
-  display: flex;
   gap: 16px;
   padding: 0;
 }
@@ -649,16 +637,13 @@ h2 {
 }
 
 .nav-section-list {
-  display: flex;
   justify-content: center;
-  gap: 24px;
   padding: 96px 0 86px 0;
   margin: 0;
 }
 
 
 .content-section-list {
-  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
