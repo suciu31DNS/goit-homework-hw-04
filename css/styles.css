@@ -73,7 +73,9 @@ h2 {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-
+.link-content {
+  display: block;
+}
 
 .buton {
   cursor: pointer;
@@ -562,6 +564,11 @@ h2 {
   display: flex;
   gap: 16px;
   padding: 0;
+}
+
+.social-media-link-footer:hover,
+.social-media-link-footer:focus {
+  background-color: #31d0aa;
 }
 
 .social-media-element {
