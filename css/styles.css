@@ -555,7 +555,7 @@ h2 {
   gap: 16px;
   justify-content: center;
   padding: 0;
-  margin: 0;
+
 }
 
 .social-media-list-footer {
@@ -611,6 +611,12 @@ h2 {
   justify-content: center;
 }
 
+.social-media-link-port:hover,
+.social-media-link-port:focus {
+  background-color: #31d0aa;
+}
+
+
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: #404bbf;
@@ -627,10 +633,6 @@ h2 {
 
 }
 
-.social-media-link-port:hover,
-.social-media-link-port:focus {
-  background-color: #31d0aa;
-}
 
 
 .main-section {
