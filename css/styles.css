@@ -15,7 +15,6 @@ body {
   background-color: var(--light-color);
 }
 
-
 p {
   margin: 0;
 
@@ -25,7 +24,6 @@ h2 {
   margin: 0;
 
 }
-
 
 /*LOGO*/
 .logo {
@@ -366,6 +364,7 @@ h2 {
 .our-team-section {
   align-content: center;
   padding: 120px 0;
+  max-width: 1440px;
 }
 
 .our-team-title {
@@ -439,8 +438,8 @@ h2 {
 .customers-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 120px) / 6);
-
+  /* width: calc((100% - 120px) / 6); */
+  padding: 0;
 }
 
 .customers-title {
@@ -481,8 +480,7 @@ h2 {
 
 .customers-icon {
   fill: currentColor;
-  /* width: 104px;
-  height: 56px; */
+
 }
 
 
@@ -493,7 +491,7 @@ h2 {
 
 .footer {
   background-color: var(--hero-color-navy);
-  width: 1158px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -532,6 +530,7 @@ h2 {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
+
 }
 
 .social-media-pharagraph {
@@ -584,7 +583,7 @@ h2 {
 
 
 .icon-footer {
-  fill: var(--white-color);
+  fill: var(--nu-color);
 }
 
 .social-media-link {
@@ -634,6 +633,7 @@ h2 {
 .main-section {
   display: flex;
   flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .nav-section-list {
